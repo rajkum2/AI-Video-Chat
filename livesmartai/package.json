@@ -1,0 +1,24 @@
+{
+  "name": "livesmartai-server",
+  "version": "1.0.1",
+  "description": "LiveSmart AI Video is a standalone web application which combines the amazing capabilities of OpenAI ChatGPT with a video avatar by your choice.",
+  "main": "livesmartai.js",
+  "keywords": [],
+  "author": "LiveSmart",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "livesmartai.js",
+    "lint": "npx prettier --write ."
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "openai": "^4.38.5",
+    "compression": "1.7.4",
+    "cors": "2.8.5",
+    "httpolyglot": "0.1.2",
+    "node-fetch": "2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4"
+  }
+}
